@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Telas"
         tools:targetApi="31">
         <activity
+            android:name=".listaPedidos"
+            android:exported="false" />
+        <activity
             android:name=".PedidoItem"
             android:exported="false" />
         <activity
